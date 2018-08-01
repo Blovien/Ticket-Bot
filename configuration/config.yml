@@ -2,3 +2,8 @@
 
 # Bot's token
 token: bot_token
+
+prefix: "!"
+
+# id of the channel who can use "new" command
+ticket-channel: "channel_id"
