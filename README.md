@@ -1,5 +1,7 @@
 # Ticket Bot
 ##### By Blovien
+!Important
+This bot is not complete and can be unstable
 
 Ticket bot is a discord bot written in python.
 
