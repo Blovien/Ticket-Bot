@@ -1,10 +1,11 @@
 import asyncio,discord
 from discord.ext import commands
-from ticketBot.utils import config_setup,messages
+from utils import config_setup
+from utils import messages
 
 ticket_bot = commands.Bot(command_prefix=config_setup.prefix)
 
-extensions = ['commands.new_command', 'commands.info_command', 'commands.close_command', 'commands.add_command']
+extensions = ['commands.new_command', 'commands.info_command', 'commands.close_command']
 
 ticket_bot.get_all_channels()
 

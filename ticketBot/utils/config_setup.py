@@ -1,7 +1,7 @@
 import yaml
 
 # Load config.yml from configuration folder
-data = yaml.load(open("../configuration/config.yml", mode='r'))
+data = yaml.load(open("configuration/config.yml", mode='r'))
 
 """
 Give bot's token key in config.yml

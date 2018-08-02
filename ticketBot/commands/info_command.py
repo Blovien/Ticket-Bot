@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from ticketBot.utils.messages import message
+from utils.messages import message
 
 
 class Info:

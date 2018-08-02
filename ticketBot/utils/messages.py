@@ -1,4 +1,4 @@
-from ticketBot.utils import config_setup
+from . import config_setup
 
 message = {}
 

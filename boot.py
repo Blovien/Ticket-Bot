@@ -51,10 +51,6 @@ def check_python():
                 print("Could not find Python 3.5 or higher.  Please run the bot using Python 3.5")
 
 
-def boot():
-    check_python()
-
-
 if __name__ == '__main__':
-    boot()
+    check_python()
     main()

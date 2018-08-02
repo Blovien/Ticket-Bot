@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from ticketBot.utils import config_setup, messages, utils
+from utils import config_setup, messages, utils
 
 class New:
     """
