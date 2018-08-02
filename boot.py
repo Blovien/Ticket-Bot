@@ -40,7 +40,7 @@ def check_python():
         else:
             print('Trying "python3.5"')
             try:
-                pycom = subprocess.check_output('python3.5 -c "exit()"'.split()).strip().decode()
+                pycom = subprocess.check_output('python3.5 -c exit()'.split()).strip().decode()
             except:
                 pass
 
