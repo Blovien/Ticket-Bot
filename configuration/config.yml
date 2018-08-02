@@ -1,12 +1,12 @@
 # Ticket bot configuration file
 
 # Bot's token
-token: NDc0MDc3MDQ1MTAyNjA4NDA1.DkTHsA.C0_VGZGcphMxUjDuyAcyU0K0Gh0
+token: bot_token
 
 prefix: "-"
 
 # id of the channel who can use "new" command
-ticket-channel: "474589414736134145"
+ticket-channel: "channel_id"
 
 # Support role can see by default the tickets channels
 # Paste the name of the role here
