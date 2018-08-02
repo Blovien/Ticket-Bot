@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe440048-cda2-4c16-bc3a-8a1ed1de86f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.storage/tickets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketBot/commands/delete_command.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketBot/commands/info_command.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketBot/utils/json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketBot/utils/messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/andrearossi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storage/tickets.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketBot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketBot/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketBot/commands/delete_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketBot/commands/close_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketBot/commands/info_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketBot/commands/info_command.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketBot/commands/new_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketBot/commands/new_command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketBot/utils/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketBot/utils/config_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketBot/utils/config_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketBot/utils/json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketBot/utils/messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketBot/utils/messages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketBot/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticketBot/utils/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,77 +27,69 @@
     <session id="-1475165008">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
-          <entry key="md" value="3" />
-          <entry key="py" value="21" />
-          <entry key="yml" value="2" />
+          <entry key="md" value="5" />
+          <entry key="py" value="45" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="Markdown" value="3" />
-          <entry key="Python" value="21" />
-          <entry key="YAML" value="2" />
+          <entry key="Markdown" value="5" />
+          <entry key="Python" value="45" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
           <entry key="json" value="21" />
-          <entry key="py" value="4212" />
-          <entry key="yml" value="214" />
+          <entry key="py" value="9362" />
+          <entry key="yml" value="362" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="21" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="4212" />
-          <entry key="YAML" value="214" />
+          <entry key="Python" value="9362" />
+          <entry key="YAML" value="362" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticketBot/bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="22" column="83" lean-forward="true" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
+            <state relative-caret-position="23">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="12" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1533107156000" expanded="true" signature="243:701" ph="..." />
-                <marker date="1533107156000" expanded="true" signature="399:400" ph="..." />
+                <marker date="1533226003000" expanded="true" signature="591:990" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.storage/tickets.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ticketBot/utils/json.py">
+        <entry file="file://$PROJECT_DIR$/update.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="1215">
+              <caret line="63" column="11" lean-forward="true" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
               <folding>
-                <marker date="1533108662000" expanded="true" signature="39:44" ph="..." />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,31 +98,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticketBot/commands/new_command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="-1577">
+              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1533108158000" expanded="true" signature="1293:1295" ph="..." />
+                <marker date="1533226188000" expanded="true" signature="3907:3910" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticketBot/commands/delete_command.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticketBot/utils/utils.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticketBot/utils/config_setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="230">
+                <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -136,17 +123,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticketBot/utils/messages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
+            <state relative-caret-position="406">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configuration/config.yml">
+        <entry file="file://$PROJECT_DIR$/ticketBot/utils/config_setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="69">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ticketBot/commands/close_command.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1533226544000" expanded="true" signature="62:67" ph="..." />
+                <marker date="1533226544000" expanded="true" signature="1169:1174" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,13 +155,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticketBot/commands/info_command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+            <state relative-caret-position="253">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1533107082000" expanded="true" signature="106:111" ph="..." />
-                <marker date="1533107082000" expanded="true" signature="983:1011" ph="..." />
+                <marker date="1533224671000" expanded="true" signature="106:111" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ticketBot/utils/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -189,29 +207,33 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ticketBot/config_setup.py" />
         <option value="$PROJECT_DIR$/ticketBot/utils/__init__.py" />
-        <option value="$PROJECT_DIR$/ticketBot/utils/utils.py" />
         <option value="$PROJECT_DIR$/configuration/config_setup.py" />
         <option value="$PROJECT_DIR$/config_setup.py" />
         <option value="$PROJECT_DIR$/ticketBot/__init__.py" />
         <option value="$PROJECT_DIR$/ticketBot/commands/new.py" />
         <option value="$PROJECT_DIR$/ticketBot/commands/delete_command.py" />
         <option value="$PROJECT_DIR$/ticketBot/commands/help_command.py" />
-        <option value="$PROJECT_DIR$/ticketBot/commands/info_command.py" />
-        <option value="$PROJECT_DIR$/ticketBot/bot.py" />
-        <option value="$PROJECT_DIR$/ticketBot/utils/config_setup.py" />
-        <option value="$PROJECT_DIR$/ticketBot/utils/messages.py" />
-        <option value="$PROJECT_DIR$/configuration/config.yml" />
-        <option value="$PROJECT_DIR$/ticketBot/commands/new_command.py" />
         <option value="$PROJECT_DIR$/.storage/tickets.json.py" />
         <option value="$PROJECT_DIR$/.storage/tickets.json" />
         <option value="$PROJECT_DIR$/ticketBot/utils/json.py" />
+        <option value="$PROJECT_DIR$/ticketBot/utils/utils.py" />
+        <option value="$PROJECT_DIR$/ticketBot/utils/embeds.py" />
+        <option value="$PROJECT_DIR$/ticketBot/commands/add_command.py" />
+        <option value="$PROJECT_DIR$/ticketBot/commands/info_command.py" />
+        <option value="$PROJECT_DIR$/ticketBot/bot.py" />
+        <option value="$PROJECT_DIR$/ticketBot/commands/new_command.py" />
+        <option value="$PROJECT_DIR$/ticketBot/utils/config_setup.py" />
+        <option value="$PROJECT_DIR$/ticketBot/commands/close_command.py" />
+        <option value="$PROJECT_DIR$/ticketBot/utils/messages.py" />
+        <option value="$PROJECT_DIR$/update.py" />
+        <option value="$PROJECT_DIR$/configuration/config.yml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1008" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="1411" />
+    <option name="width" value="509" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,11 +248,6 @@
             <path>
               <item name="Ticket-Bot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ticket-Bot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ticket-Bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ticket-Bot" type="462c0819:PsiDirectoryNode" />
-              <item name=".storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ticket-Bot" type="b2602c69:ProjectViewProjectNode" />
@@ -266,10 +283,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.storage" />
+      <recent name="$PROJECT_DIR$/ticketBot/commands" />
+      <recent name="$PROJECT_DIR$/ticketBot" />
       <recent name="$PROJECT_DIR$/configuration" />
       <recent name="$PROJECT_DIR$/ticketBot/utils" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/ticketBot" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -284,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bot">
+  <component name="RunManager" selected="Python.update">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ticket-Bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,27 +316,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ticketBot/bot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="config_setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Ticket-Bot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ticketBot/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ticketBot/utils/config_setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,18 +366,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="update" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Ticket-Bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/update.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Ticket-Bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ticketBot/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ticketBot/utils/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.bot" />
-      <item itemvalue="Python.config_setup" />
       <item itemvalue="Python.new_command" />
       <item itemvalue="Python.info_command" />
+      <item itemvalue="Python.utils" />
+      <item itemvalue="Python.update" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.update" />
         <item itemvalue="Python.bot" />
-        <item itemvalue="Python.info_command" />
+        <item itemvalue="Python.utils" />
         <item itemvalue="Python.new_command" />
-        <item itemvalue="Python.config_setup" />
+        <item itemvalue="Python.info_command" />
       </list>
     </recent_temporary>
   </component>
@@ -398,58 +439,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="22" width="1920" height="1008" extended-state="6" />
-    <editor active="true" />
+    <frame x="944" y="0" width="976" height="1080" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24625267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36444443" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36418512" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993964" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/colour.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2098">
-          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketBot/utils/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-1199943126/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="5108" column="69" lean-forward="true" selection-start-line="5108" selection-start-column="69" selection-end-line="5108" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketBot/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketBot/utils/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/ticketBot/__init__.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/ext/commands/bot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -464,22 +482,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/client.py">
+    <entry file="file://$PROJECT_DIR$/ticketBot/commands/help_command.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/message.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="2163" column="22" selection-start-line="2163" selection-start-column="22" selection-end-line="2163" selection-end-column="22" />
+        <state relative-caret-position="4755">
+          <caret line="324" column="27" selection-start-line="324" selection-start-column="20" selection-end-line="324" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.storage/tickets.json.py" />
+    <entry file="file://$PROJECT_DIR$/.storage/tickets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="488" column="4" selection-start-line="488" selection-start-column="4" selection-end-line="488" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketBot/commands/delete_command.py" />
+    <entry file="file://$PROJECT_DIR$/ticketBot/utils/embeds.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/opus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4163">
+          <caret line="187" column="17" selection-start-line="187" selection-start-column="17" selection-end-line="187" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketBot/utils/json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/channel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="156" column="23" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="23" />
+        <state relative-caret-position="262">
+          <caret line="361" column="15" selection-start-line="361" selection-start-column="13" selection-end-line="361" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ticketBot/commands/help_command.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="256" column="25" selection-start-line="256" selection-start-column="21" selection-end-line="256" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketBot/commands/add_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="142" column="4" selection-start-line="142" selection-start-column="4" selection-end-line="142" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/colour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="595" column="40" selection-start-line="595" selection-start-column="33" selection-end-line="595" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="2889" column="30" selection-start-line="2889" selection-start-column="24" selection-end-line="2889" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketBot/utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketBot/utils/messages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketBot/utils/config_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketBot/commands/new_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1577">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1533226188000" expanded="true" signature="3907:3910" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketBot/commands/close_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1533226544000" expanded="true" signature="62:67" ph="..." />
+            <marker date="1533226544000" expanded="true" signature="1169:1174" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketBot/commands/info_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1533224671000" expanded="true" signature="106:111" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticketBot/bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="12" />
+          <folding>
+            <marker date="1533226003000" expanded="true" signature="591:990" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -491,91 +655,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/discord/message.py">
+    <entry file="file://$PROJECT_DIR$/update.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4755">
-          <caret line="324" column="27" selection-start-line="324" selection-start-column="20" selection-end-line="324" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketBot/commands/delete_command.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketBot/commands/info_command.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="1215">
+          <caret line="63" column="11" lean-forward="true" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1533107082000" expanded="true" signature="106:111" ph="..." />
-            <marker date="1533107082000" expanded="true" signature="983:1011" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketBot/utils/messages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketBot/utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketBot/utils/config_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketBot/commands/new_command.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1533108158000" expanded="true" signature="1293:1295" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.storage/tickets.json.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketBot/bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="22" column="83" lean-forward="true" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1533107156000" expanded="true" signature="243:701" ph="..." />
-            <marker date="1533107156000" expanded="true" signature="399:400" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.storage/tickets.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticketBot/utils/json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <marker date="1533108662000" expanded="true" signature="39:44" ph="..." />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

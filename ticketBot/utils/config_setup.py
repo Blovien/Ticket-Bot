@@ -1,7 +1,7 @@
 import yaml
 
 # Load config.yml from configuration folder
-data = yaml.load(open("configuration/config.yml", 'r'))
+data = yaml.load(open("../configuration/config.yml", mode='r'))
 
 """
 Give bot's token key in config.yml
@@ -18,3 +18,8 @@ prefix = data['prefix']
 Give ticket channel in config.yml
 """
 ticket_channel = data['ticket-channel']
+
+"""
+Give support-role in config.yml
+"""
+support_role = data['support-role']
