@@ -1,9 +1,5 @@
 # Ticket Bot
 ##### By Blovien
-!Important
-This bot is not complete and can be unstable
-
-Ticket bot is a discord bot written in python.
 
 ## What it does?
 Simply ticket bot help you to create support channels who can speak with clients (example)
@@ -11,3 +7,11 @@ Simply ticket bot help you to create support channels who can speak with clients
 ### Requirements
 * **Python** between 3.5 and 3.6
 * **discord.py**
+
+## How to install?
+* type pip install requirements.txt in terminal
+
+## How can i start the bot?
+* **macOS** : sh boot.sh
+* **windows** : just open boot.bat
+* **linux** : ./boot.sh
