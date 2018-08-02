@@ -46,16 +46,6 @@ def main():
     except subprocess.CalledProcessError:
         raise OSError("Could not update the bot. You will need to run 'git pull' yourself.")
 
-    print("Attempting to update dependencies...")
-
-    try:
-        subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-U', '-r', 'requirements.txt'], shell=True)
-        print("type exit()")
-    except subprocess.CalledProcessError:
-        raise OSError(
-            "Could not update dependencies. You will need to run '{0} -m pip install -U -r requirements.txt' yourself.".format(
-                sys.executable))
-
     print("Done!")
 
 
