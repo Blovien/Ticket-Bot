@@ -15,12 +15,9 @@ def y_n(q):
 def main():
     print('Starting...')
 
-    # Make sure that we're in a Git repository
     if not os.path.isdir('.git'):
         raise EnvironmentError("This isn't a Git repository.")
 
-    # Make sure that we can actually use Git on the command line
-    # because some people install Git Bash without allowing access to Windows CMD
     try:
         subprocess.check_call('git --version', shell=True, stdout=subprocess.DEVNULL)
     except subprocess.CalledProcessError:
