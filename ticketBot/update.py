@@ -49,7 +49,7 @@ def main():
     print("Attempting to update dependencies...")
 
     try:
-        subprocess.check_call(['pip', 'install', '-U', '-r', 'requirements.txt'], shell=True)
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-U', '-r', 'requirements.txt'], shell=True)
     except subprocess.CalledProcessError:
         raise OSError(
             "Could not update dependencies. You will need to run '{0} -m pip install -U -r requirements.txt' yourself.".format(
