@@ -9,7 +9,7 @@ Simply ticket bot help you to create support channels who can speak with clients
 * **discord.py**
 
 ## How to install?
-* type pip install requirements.txt in terminal
+* type pip __install -r requirements.txt__ in terminal
 
 ## How can i start the bot?
 * **macOS** : sh boot.sh
