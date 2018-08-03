@@ -15,3 +15,5 @@ Simply ticket bot help you to create support channels who can speak with clients
 * **macOS** : sh boot.sh
 * **windows** : just open boot.bat
 * **linux** : ./boot.sh
+
+## Do you need help? Go [here](https://github.com/Blovien/Ticket-Bot/wiki)
