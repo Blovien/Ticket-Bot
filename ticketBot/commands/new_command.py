@@ -19,21 +19,6 @@ class New:
         """
 
         author = ctx.message.author
-        # split the string to get the rolename to create
-        # check if that role already exists
-        check_for_duplicate = discord.utils.get(ctx.message.server.roles, name="Client")
-
-        print("Checking if Client role already exist...")
-
-        if check_for_duplicate is not None:
-            print("Client role not found creating...")
-            role = await self.bot.create_role(server=ctx.message.server, color=discord.Color.green())
-            print("Client role Created")
-            print("Adding Client role to {}...".format(ctx.message.author.name))
-            await self.bot.add_roles(ctx.message.author, role=role)
-            print("Client role added")
-        else:
-            print("Client role already exist, skipping...")
 
         if ctx.message.channel.id == config_setup.ticket_channel:
             for channel in ctx.message.server.channels:
